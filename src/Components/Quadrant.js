@@ -4,7 +4,7 @@ const Quadrant=(props)=>{
     
 
     return(
-        <button onClick={props.onClick}> {props.value} </button>
+        <button style={{color: "red", fontSize:"5em"}} onClick={props.onClick}> {props.value} </button>
     )
 }
 
